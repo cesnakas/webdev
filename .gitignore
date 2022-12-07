@@ -6,6 +6,9 @@ _site/
 ### PhpStorm ###
 .idea/
 
+### Fleet ###
+.fleet/
+
 ### VSCode ###
 .vscode/*
 
