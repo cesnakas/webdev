@@ -1,11 +1,11 @@
 ---
 layout: default
-title: HTML
-permalink: /html/
-nav_order: 02
+title: CSS
+permalink: /css/
+nav_order: 03
 has_children: true
 has_toc: true
 ---
 
-# HTML
+# CSS
 
