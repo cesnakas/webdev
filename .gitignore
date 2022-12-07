@@ -2,3 +2,16 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+### PhpStorm ###
+.idea/
+
+### VSCode ###
+.vscode/*
+
+### macOS ###
+.DS_Store
+__MACOSX
+
+### Windows ###
+Thumbs.db
