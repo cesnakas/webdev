@@ -8,3 +8,26 @@ lang: ru
 # URL
 permalink: pretty
 
+aux_links:
+  "Česnakas on GitHub":
+    - "//github.com/cesnakas"
+
+aux_links_new_tab: true
+
+gh_edit_link: false
+
+search_enabled: true
+search:
+  lang:
+    - en
+    - ru
+
+plugins:
+  - jekyll-seo-tag
+  - search:
+      lang:
+        - en
+        - ru
+
+sass:
+  style: :compressed
