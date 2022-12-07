@@ -1,0 +1,10 @@
+### Theme ###
+remote_theme: pmarsceill/just-the-docs
+
+### Title ###
+title: Bitrix Kit
+# Lang
+lang: ru
+# URL
+permalink: pretty
+
