@@ -26,7 +26,7 @@ svg path:hover {
 
 ### SVG Sprites
 
-```svg
+```html
 <svg xmlns="http://www.w3.org/2000/svg">
     <symbol viewBox="0 0 100 100" id="exampleIcon">
         <!-- SVG Image -->
