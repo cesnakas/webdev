@@ -9,9 +9,9 @@ nav_order: 0
 
 Scalable Vector Graphics — масштабируемая векторная графика
 
-### path
+## path
 
-### stroke-dasharray
+## stroke-dasharray
 
 ```css
 svg path {
