@@ -24,11 +24,11 @@
  # Editor directories and files
  .vscode/*
  !.vscode/extensions.json
- .idea/
+ .idea
  *.suo
  *.ntvs*
  *.njsproj
  *.sln
  *.sw?
-
-
+/docs/.vuepress/.cache/
+/docs/.vuepress/.temp/
