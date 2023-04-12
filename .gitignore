@@ -35,3 +35,6 @@
 .idea/php.xml
 .idea/vcs.xml
 .idea/workspace.xml
+/docs/.vuepress/dist/
+/node_modules/
+.idea/bitrixlangplugin.xml
