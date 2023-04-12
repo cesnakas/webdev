@@ -32,3 +32,6 @@
  *.sw?
 /docs/.vuepress/.cache/
 /docs/.vuepress/.temp/
+.idea/php.xml
+.idea/vcs.xml
+.idea/workspace.xml
