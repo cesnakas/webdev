@@ -1,0 +1,17 @@
+export const pagesRoutes = [
+  ["v-19260a84","/css/snippets.html",{"title":"CSS Snippets"},["/css/snippets","/css/snippets.md"]],
+  ["v-06198984","/frontend/",{"title":"Frontend"},["/frontend/index.html","/frontend/README.md"]],
+  ["v-5211d9af","/frontend/bootstrap.html",{"title":"Bootstrap"},["/frontend/bootstrap","/frontend/bootstrap.md"]],
+  ["v-06198984","/frontend/",{"title":"Front End"},["/frontend/index.html","/frontend/index.md"]],
+  ["v-ed235d78","/frontend/links.html",{"title":"Links"},["/frontend/links","/frontend/links.md"]],
+  ["v-a2e6b30e","/frontend/svg.html",{"title":"SVG"},["/frontend/svg","/frontend/svg.md"]],
+  ["v-e02a086e","/javascript/",{"title":"JavaScript"},["/javascript/index.html","/javascript/index.md"]],
+  ["v-6f9cc2f8","/html/snippets.html",{"title":"HTML Snippets"},["/html/snippets","/html/snippets.md"]],
+  ["v-744b4c30","/php/",{"title":"PHP"},["/php/index.html","/php/index.md"]],
+  ["v-7cfad68f","/laravel/",{"title":"Laravel"},["/laravel/index.html","/laravel/index.md"]],
+  ["v-551bb614","/backend/",{"title":"Backend"},["/backend/index.html","/backend/README.md"]],
+  ["v-9a443c92","/backend/apache.html",{"title":"Apache"},["/backend/apache","/backend/apache.md"]],
+  ["v-25a5cada","/backend/nginx.html",{"title":"Nginx"},["/backend/nginx","/backend/nginx.md"]],
+  ["v-3706649a","/404.html",{"title":""},["/404"]],
+  ["v-8daa1a0e","/",{"title":"Web Development"},["/index.html","/README.md"]],
+]

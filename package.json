@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.61",
+    "@vuepress/client": "2.0.0-beta.61",
+    "vue": "^3.2.47"
+  }
+}

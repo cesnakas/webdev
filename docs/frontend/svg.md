@@ -1,8 +1,5 @@
 ---
-layout: default
 title: SVG
-parent: Front End
-nav_order: 0
 ---
 
 # SVG
