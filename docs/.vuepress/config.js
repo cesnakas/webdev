@@ -11,6 +11,9 @@ export default defineUserConfig ({
     repo: 'https://github.com/cesnakas',
     docsDir: 'docs',
     editLink: false,
+    contributors: false,
+    lastUpdated: false,
+
     navbar: [
       {
         text: 'Frontend',
@@ -47,10 +50,27 @@ export default defineUserConfig ({
         children: [
           '/backend/apache.md',
           '/backend/nginx.md',
+          '/php/',
+          '/bitrix/',
+          '/laravel/',
         ]
       },
       { text: 'JavaScript', link: '/javascript/' },
-      { text: 'PHP', link: '/php/' },
+      {
+        text: 'PHP',
+        link: '/php/',
+        children: [
+          {
+            text: 'Анонимные функции',
+            link: 'https://www.php.net/manual/ru/functions.anonymous.php'
+          },
+          {
+            text: 'Функции для работы с массивами',
+            link: 'https://www.php.net/manual/ru/ref.array.php'
+          }
+        ]
+      },
+      { text: 'Bitrix', link: '/bitrix/' },
       { text: 'Laravel', link: '/laravel/' }
     ],
   })
