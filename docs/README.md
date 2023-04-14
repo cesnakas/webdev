@@ -1,6 +1,5 @@
 ---
 home: true
-title: Web Development
 heroImage: /images/hero.png
 heroText: Hello WebDev
 actions:

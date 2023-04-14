@@ -1,7 +1,7 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig ({
-  base: '/webdev/',
+  base: process.env.NODE_ENV === 'production' ? '/webdev/' : '/',
   lang: 'ru',
   title: 'WebDev',
   description: 'Web Development',
