@@ -15,63 +15,24 @@ export default defineUserConfig ({
     lastUpdated: false,
 
     navbar: [
+      { text: 'Gulp', link: '/gulp/' },
+      { text: 'Vue', link: '/vue/' },
+      { text: 'Bitrix', link: '/bitrix/' },
+      { text: 'Laravel', link: '/laravel/' },
+      { text: 'JavaScript', link: '/javascript/' },
+      { text: 'PHP', link: '/php/', },
       {
-        text: 'Frontend',
-        children: [
-          {
-            text: 'HTML',
-            children: [
-              '/html/snippets.md',
-            ]
-          },
-          {
-            text: 'CSS',
-            children: [
-              '/css/snippets.md',
-            ]
-          },
-          {
-            text: 'Images',
-            children: [
-              '/frontend/links.md',
-              '/frontend/svg.md',
-            ]
-          },
-          {
-            text: `Framework's`,
-            children: [
-              '/frontend/bootstrap.md'
-            ]
-          }
-        ],
-      },
-      {
-        text: 'Backend',
+        text: 'Tools',
         children: [
           '/backend/apache.md',
           '/backend/nginx.md',
-          '/php/',
-          '/bitrix/',
-          '/laravel/',
-        ]
-      },
-      { text: 'JavaScript', link: '/javascript/' },
-      {
-        text: 'PHP',
-        link: '/php/',
-        children: [
-          {
-            text: 'Анонимные функции',
-            link: 'https://www.php.net/manual/ru/functions.anonymous.php'
-          },
-          {
-            text: 'Функции для работы с массивами',
-            link: 'https://www.php.net/manual/ru/ref.array.php'
-          }
-        ]
-      },
-      { text: 'Bitrix', link: '/bitrix/' },
-      { text: 'Laravel', link: '/laravel/' }
+          '/html/',
+          '/css/',
+          '/frontend/svg.md',
+          '/frontend/animation.md',
+          '/frontend/bootstrap.md',
+        ],
+      }
     ],
   })
 })
